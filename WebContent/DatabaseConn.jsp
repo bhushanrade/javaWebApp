@@ -12,10 +12,8 @@
 
 
 
-Class.forName("com.mysql.jdbc.Driver"); 
-java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://172.30.240.142:3306/sampledb","admin","root"); 
-
-String envVar = System.getenv("MYSQL_USER");
+String envVar = System.getenv("OPENSHIFT_MYSQL_DB_USERNAME");
+out.println(envVar);
 <%= envVar %>
 
 %>
