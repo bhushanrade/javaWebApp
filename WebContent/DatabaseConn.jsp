@@ -4,7 +4,7 @@
 <html>
 <head></head>
 <body>
-<table border="2">
+
 
 
 
@@ -12,20 +12,21 @@
 
 
 
-String envVar = "HI"
-out.println(envVar);  %>
-<%= envVar %>
+	out.println("hii");
+	out.println("hi");
 
+	%>
+	
+	
+	
+	<%
 
-</table>
+}
+
+%>
+
 
 </body>
 </html>
-<%
-rs.close();
-st.close();
-con.close();
 
-
-%>
 
