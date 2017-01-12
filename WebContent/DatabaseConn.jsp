@@ -11,7 +11,7 @@
 	
 	<%
 		
-String envVar = System.getenv("OPENSHIFT_MYSQL_DB_HOST");
+String envVar = System.getenv("MYSQL_SERVICE_HOST");
 	
 	out.println("hi");
 	out.println(envVar);
