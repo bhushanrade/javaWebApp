@@ -13,10 +13,10 @@
 
 
 String envVar = "HI"
-out.println(envVar);
+out.println(envVar);  %>
 <%= envVar %>
 
-%>
+
 </table>
 
 </body>
