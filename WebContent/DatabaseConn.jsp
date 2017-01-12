@@ -11,7 +11,7 @@
 	
 	<%
 	
-	out.println("hi")
+	out.println("hi");
 	
 	
 	%>
