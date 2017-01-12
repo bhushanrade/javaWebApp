@@ -10,9 +10,11 @@
 	HI
 	
 	<%
+		
+String envVar = System.getenv("OPENSHIFT_MYSQL_DB_HOST");
 	
 	out.println("hi");
-	
+	out.println(envVar);
 	
 	%>
 
