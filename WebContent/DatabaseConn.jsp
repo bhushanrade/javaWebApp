@@ -7,24 +7,14 @@
 
 
 
-
-<%
-
-
-
-	out.println("hii");
-	out.println("hi");
-
-	%>
-	
-	
+	HI
 	
 	<%
-
-}
-
-%>
-
+	
+	out.println("hi")
+	
+	
+	%>
 
 </body>
 </html>
