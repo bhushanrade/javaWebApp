@@ -11,10 +11,16 @@
 	
 	<%
 		
-String envVar = System.getenv("MYSQL_SERVICE_HOST");
+String host = System.getenv("MYSQL_SERVICE_HOST");
+String port = System.getenv("MYSQL_SERVICE_PORT_MYSQL");
+String user = System.getenv("MYSQL_USER");
+
 	
 	out.println("hi");
-	out.println(envVar);
+	out.println(host);
+	out.println(port);
+	out.println(user);
+	
 	
 	%>
 
