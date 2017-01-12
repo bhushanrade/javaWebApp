@@ -12,7 +12,7 @@
 
 
 
-String envVar = System.getenv("OPENSHIFT_MYSQL_DB_USERNAME");
+String envVar = "HI"
 out.println(envVar);
 <%= envVar %>
 
